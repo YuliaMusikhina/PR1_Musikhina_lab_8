@@ -24,7 +24,9 @@ xmlhttp.send();
 xmlDoc = xmlhttp.responseXML;
 //начинаем движение по элементам первого уровня иерархии - Приборы
 var pribor = xmlDoc.getElementsByTagName("pribor");
-for (i = 0; i < pribor.length; i++) {
+for (i = 0; i < pribor.length; i++)
+{
+document.write("<table>");
 document.write("<tr><td>");
 document.write(pribor[i].getElementsByTagName("CodPribora")[0].childNodes[0].nodeValue);
 document.write("</td><td>");
@@ -33,7 +35,8 @@ document.write("</td></tr>");
 //начинаем движение по подчиненным элементам - текущий прибор
 var information = pribor[i].getElementsByTagName("information");
 document.write("<table><tr><th>Тип прибора</th><th>Дата производства</th><th>Материально ответственное лицо</th></tr>");
-for (j = 0; j < information.length; j++) {
+for (j = 0; j < information.length; j++) 
+{
 document.write("<tr><td>");
 document.write(information[j].getElementsByTagName("TypePribora")[0].childNodes[0].nodeValue);
 document.write("</td><td>");
