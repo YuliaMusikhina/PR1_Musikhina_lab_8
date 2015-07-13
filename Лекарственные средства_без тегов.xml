@@ -1,0 +1,78 @@
+# PR1_Musikhina_lab_8
+<?xml version="1.0" encoding="utf-8"?>
+<Root xmlns="XSD1.xsd"> Лекарственные средства <!—обратите внимание на ссылку на xsd —> <br />
+
+<Medicine>
+<Medicine> Лекарства </Medicine> <Medicine> Информация о лекарстве </Medicine>
+<CodMedicine>Код лекарства</CodMedicine>
+<NazvanieLecarstva>Название лекарства</NazvanieLecarstva>
+</Medicine>
+
+<Medicine>
+<CodMedicine>1</CodMedicine>
+<NazvanieLecarstva>Ромашка</NazvanieLecarstva>
+</Medicine>
+
+<Medicine>
+<CodMedicine>2</CodMedicine>
+<NazvanieLecarstva>Парацетомол</NazvanieLecarstva>
+</Medicine>
+
+<Medicine>
+<CodMedicine>3</CodMedicine>
+<NazvanieLecarstva>Ингалипт</NazvanieLecarstva>
+</Medicine>
+
+<Medicine>
+<CodMedicine>4</CodMedicine>
+<NazvanieLecarstva>Анаферон</NazvanieLecarstva>
+</Medicine>
+
+<Medicine>
+<CodMedicine>5</CodMedicine>
+<NazvanieLecarstva>Пертусин</NazvanieLecarstva>
+</Medicine>
+
+<Medicine>
+<Pocazaniya_k_Primeneniyu>Показания к применению</Pocazaniya_k_Primeneniyu>
+<EdinitsaIzmereniya>Единица измерения</EdinitsaIzmereniya>
+<Kolichestvo_v_upakovke>Кол-во в упаковке</Kolichestvo_v_upakovke>
+<NazvanieProizvoditelya>Название производителя</NazvanieProizvoditelya>
+</Medicine>
+
+<Medicine>
+<Pocazaniya_k_Primeneniyu>Аллергия на растение</Pocazaniya_k_Primeneniyu>
+<EdinitsaIzmereniya>200</EdinitsaIzmereniya>
+<Kolichestvo_v_upakovke>12</Kolichestvo_v_upakovke>
+<NazvanieProizvoditelya>Ромашка</NazvanieProizvoditelya>
+</Medicine>
+
+<Medicine>
+<Pocazaniya_k_Primeneniyu>Нет</Pocazaniya_k_Primeneniyu>
+<EdinitsaIzmereniya>100</EdinitsaIzmereniya>
+<Kolichestvo_v_upakovke>10</Kolichestvo_v_upakovke>
+<NazvanieProizvoditelya>Таблетки</NazvanieProizvoditelya>
+</Medicine>
+
+<Medicine>
+<Pocazaniya_k_Primeneniyu>Нет</Pocazaniya_k_Primeneniyu>
+<EdinitsaIzmereniya>450</EdinitsaIzmereniya>
+<Kolichestvo_v_upakovke>1</Kolichestvo_v_upakovke>
+<NazvanieProizvoditelya>Ingalipt prod</NazvanieProizvoditelya>
+</Medicine>
+
+<Medicine>
+<Pocazaniya_k_Primeneniyu>Нет</Pocazaniya_k_Primeneniyu>
+<EdinitsaIzmereniya>280</EdinitsaIzmereniya>
+<Kolichestvo_v_upakovke>12</Kolichestvo_v_upakovke>
+<NazvanieProizvoditelya>Таблетки</NazvanieProizvoditelya>
+</Medicine>
+
+<Medicine>
+<Pocazaniya_k_Primeneniyu>Аллергия</Pocazaniya_k_Primeneniyu>
+<EdinitsaIzmereniya>300</EdinitsaIzmereniya>
+<Kolichestvo_v_upakovke>12</Kolichestvo_v_upakovke>
+<NazvanieProizvoditelya>Pertic</NazvanieProizvoditelya>
+</Medicine>
+
+</Root>
