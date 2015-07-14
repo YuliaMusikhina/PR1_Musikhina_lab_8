@@ -26,7 +26,6 @@ xmlDoc = xmlhttp.responseXML;
 var Medicine = xmlDoc.getElementsByTagName("Medicine");
 for (i = 0; i < Medicine.length; i++)
 {
-document.write("<table>");
 document.write("<tr><td>");
 document.write(Medicine[i].getElementsByTagName("CodMedicine")[0].childNodes[0].nodeValue);
 document.write("</td><td>");
@@ -52,9 +51,7 @@ document.write(information[j].getElementsByTagName("NazvanieProizvoditelya")[0].
 document.write("</td></tr>");
 }
 document.write("</table>"); //закрыли таблицу информации о текущем лекартсве
-document.write("</td></tr>"); //закрыли столбец и строку текущего лекарства
-}
-document.write("</table>"); //закрыли таблицу лекарств
+
 </script>
 </body>
 </html>
