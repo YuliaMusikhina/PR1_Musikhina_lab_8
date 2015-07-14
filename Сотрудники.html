@@ -26,7 +26,6 @@ xmlDoc = xmlhttp.responseXML;
 var sotrudnik = xmlDoc.getElementsByTagName("sotrudnik");
 for (i = 0; i < sotrudnik.length; i++) 
 {
-document.write("<table>");
 document.write("<tr><td>");
 document.write(sotrudnik[i].getElementsByTagName("CodSotrudnika")[0].childNodes[0].nodeValue);
 document.write("</td><td>");
@@ -48,9 +47,7 @@ document.write(Book[j].getElementsByTagName("DatePriemaNaRabotu")[0].childNodes[
 document.write("</td></tr>");
 }
 document.write("</table>"); //закрыли таблицу информации о текущем сотруднике
-document.write("</td></tr>"); //закрыли столбец и строку текущего сотрудника
-}
-document.write("</table>"); //закрыли таблицу сотрудников
+
 </script>
 </body>
 </html>
