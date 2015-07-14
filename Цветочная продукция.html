@@ -26,7 +26,6 @@ xmlDoc = xmlhttp.responseXML;
 var Flower = xmlDoc.getElementsByTagName("Flower");
 for (i = 0; i < Flower.length; i++) 
 {
-document.write("<table>");
 document.write("<tr><td>");
 document.write(Flower[i].getElementsByTagName("CodFlower")[0].childNodes[0].nodeValue);
 document.write("</td><td>");
@@ -48,9 +47,7 @@ document.write(information[j].getElementsByTagName("AdditionalInformation")[0].c
 document.write("</td></tr>");
 }
 document.write("</table>"); //закрыли таблицу информации о текущем цветке
-document.write("</td></tr>"); //закрыли столбец и строку текущего цветке
-}
-document.write("</table>"); //закрыли таблицу цветов
+
 </script>
 </body>
 </html>
